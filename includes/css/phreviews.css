@@ -1,0 +1,93 @@
+/*----------------------Review Form CSS---------------------------------------------
+--------------------------------------------------------------------------------------------*/
+.ph_review_form .gform_fields li.likely_rec{
+	padding:15px;
+	background-color:#f8f8f8;
+	border-radius:10px;
+	text-align:center;
+	position:relative;
+}
+.ph_review_form .gform_fields li.likely_rec span.not_likely{
+	display:block;
+	float:left;
+}
+.ph_review_form .gform_fields li.likely_rec span.very_likely{
+	display:block;
+	float:right;
+}
+.ph_review_form .gform_fields li.likely_rec .gfield_description{
+	padding-right:0px !important;
+}
+.ph_review_form .gform_fields label.gfield_label{
+	margin-top:25px;
+	margin-bottom:10px;
+}
+.ph_review_form .gfield_radio li{
+	width:8% !important;
+	margin-right:1% !important;
+	display:inline-block !important;
+	text-align:center !important;
+	border-radius:3px !important;
+	background-color:#fff !important;
+}
+.ph_review_form .gfield_radio li input{
+	display:block !important;
+	margin:10px auto 0px !important;
+	cursor:pointer !important;
+	border-radius:0;
+	padding:5px;
+}
+.ph_review_form li textarea{
+	border-radius:10px;
+}
+.ph_review_form .gfield_radio li label{
+	font-size:24px !important;
+}
+.ph_review_form li input, .ph_review_form li textarea{
+	border-radius:5px !important;
+	padding-left:10px !important;
+}
+.ph_review_form .gform_footer input[type="submit"].gform_button{
+	margin:0 auto !important;
+	padding:15px 60px !important;
+	text-align:center !important;
+	text-transform:uppercase !important;
+	display:block !important;
+	font-size:18px !important;
+}
+
+@media only screen and (max-width: 600px) {
+	.ph_review_form .gfield_radio li label{
+		font-size:14px !important;
+	}
+	.ph_review_form .gform_fields li.likely_rec{
+		padding:1%;
+	}
+	.ph_review_form .gform_fields li.likely_rec label{
+		margin:0;
+	}
+
+}
+
+/*----------------------Widget CSS---------------------------------------------
+--------------------------------------------------------------------------------------------*/
+.powerhouse-slider .bx-controls-direction {
+	display:none;
+}
+.widget_ph_widget .bx-wrapper .bx-viewport, .entry-content .bx-wrapper .bx-viewport {
+	-moz-box-shadow: 0 0 0 transparent;
+	-webkit-box-shadow: 0 0 0 transparent;
+	box-shadow: 0 0 0 #ccc;
+	border: 5px solid transparent;
+	left: -5px;
+	background: #fff;
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+	-ms-transform: translatez(0);
+	-o-transform: translatez(0);
+	transform: translatez(0);
+}
+
+.entry-content ul.powerhouse-slider{
+	margin-left: 00px;
+}
